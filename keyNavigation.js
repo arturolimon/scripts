@@ -6,6 +6,9 @@
  *  j-> down
  *  Enter -> Go to highlighted result
  *  ctrl+Enter -> Open highlighted result in new tab
+ *  
+ *  This script is a combination of a couple of answers on stackoverflow
+ *  slightly rewritten for readability.
  */
 
 const scrollOffset = 80 /* As of today, the search results page has a header that
