@@ -8,7 +8,10 @@
  *  ctrl+Enter -> Open highlighted result in new tab
  */
 
-const scrollOffset = 80
+const scrollOffset = 80 /* As of today, the search results page has a header that
+                         * will obstruct the highlighted result when directly 
+                         * scrolling into it using scrollIntoView(). Change this
+                         * to adjust the scroll. */
 const upKey        = 75 //k
 const downKey      = 74 //j
 
